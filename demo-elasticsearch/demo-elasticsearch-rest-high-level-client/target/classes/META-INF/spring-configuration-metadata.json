@@ -1,0 +1,94 @@
+{
+  "groups": [
+    {
+      "name": "demo.data.elasticsearch",
+      "type": "org.example.elasticsearch.config.ElasticsearchProperties",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "demo.data.elasticsearch.account",
+      "type": "org.example.elasticsearch.config.ElasticsearchProperties$Account",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "demo.data.elasticsearch.index",
+      "type": "org.example.elasticsearch.config.ElasticsearchProperties$Index",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "demo.data.elasticsearch.account.password",
+      "type": "java.lang.String",
+      "description": "认证密码",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties$Account"
+    },
+    {
+      "name": "demo.data.elasticsearch.account.username",
+      "type": "java.lang.String",
+      "description": "认证用户",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties$Account"
+    },
+    {
+      "name": "demo.data.elasticsearch.cluster-name",
+      "type": "java.lang.String",
+      "description": "集群名称",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "demo.data.elasticsearch.cluster-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "description": "集群节点",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "demo.data.elasticsearch.connect-timeout",
+      "type": "java.lang.Integer",
+      "description": "连接超时时间(毫秒)",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "demo.data.elasticsearch.connection-request-timeout",
+      "type": "java.lang.Integer",
+      "description": "连接请求超时时间",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "demo.data.elasticsearch.index.number-of-replicas",
+      "type": "java.lang.Integer",
+      "description": "副本数量",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties$Index"
+    },
+    {
+      "name": "demo.data.elasticsearch.index.number-of-shards",
+      "type": "java.lang.Integer",
+      "description": "分片数量",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties$Index"
+    },
+    {
+      "name": "demo.data.elasticsearch.max-connect-per-route",
+      "type": "java.lang.Integer",
+      "description": "每个路由的最大连接数量",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "demo.data.elasticsearch.max-connect-total",
+      "type": "java.lang.Integer",
+      "description": "最大连接总数量",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "demo.data.elasticsearch.schema",
+      "type": "java.lang.String",
+      "description": "请求协议",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties"
+    },
+    {
+      "name": "demo.data.elasticsearch.socket-timeout",
+      "type": "java.lang.Integer",
+      "description": "socket 超时时间",
+      "sourceType": "org.example.elasticsearch.config.ElasticsearchProperties"
+    }
+  ],
+  "hints": []
+}
